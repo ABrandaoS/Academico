@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2> Criando Formulário </h2>
+    <form 
+    name="pedido" 
+    method="POST" 
+    action="" 
+    autocomplete="on" 
+    target="_self"
+    enctype="application/x-www-form-urlencoded">
+<pre>
+     Nome: <input type="text" id="Nome" name="Nome Completo" size="30">
+     Endereço: <textarea name="Endereço" rows="3" cols="22"></textarea>
+     Foto: <input type="file" name="Nome" size="20">
+
+     Estado Civil:
+     <select name="EstadCivil">
+         <option value="1"> Solteiro </option>
+         <option value="2"> Casado </option>
+     </select>
+    
+     Sexo:
+     Masculino <input type="radio" name="Sexo" value="M">
+     Feminino <input type="radio" name="Sexo" value="F">
+
+     Meio de locomoção:
+     <input type="checkbox" name="locomocao" value="V"> Veícuo próprio
+     <input type="checkbox" name="locomocao" value="C"> Coletivo
+     <input type="checkbox" name="locomocao" value="B"> Bicicleta
+
+     Senha: <input type="password" name="Senha" size="20">
+     <input type="submit" name="Enviar" value="Enviar"> 
+     <input type="reset" name="Limpar" value="Limpar">
+</pre>
+    </form> 
+</body>
+</html>
