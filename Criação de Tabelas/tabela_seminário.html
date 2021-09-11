@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Inicio da tabela -->
+    <table border="3"> <!-- definição da borda e seu tamanho -->
+        <caption> Seminário </caption> <!-- título da tabela -->
+        <thead> <!-- área do cabeçalho -->
+            <tr> <!-- primeira linha -->
+                <th rowspan="3"> Dia </th> <!-- coluna com destaque mesclada verticalmente -->
+                <th colspan="4"> Seminário: desenvolvimento de sistemas com PHP </th> <!-- coluna com destaque mesclada horizontalmente -->
+            </tr>
+            
+            <tr> <!-- segunda linha -->
+                <th colspan="2"> Agendamento </th> <!-- coluna com destaque mesclada horizontalmente -->
+                <th colspan="2", rowspan="2"> Tema </th> <!-- coluna com destaque mesclada horizontalmente -->
+            </tr>
+            
+            <tr> <!-- terceira linha -->
+                <th> Início </th> <!-- coluna -->
+                <th> Fim </th> <!-- coluna -->
+            </tr>
+        </thead>
+
+        <tbody> <!-- corpo da tabela -->
+            <tr> <!-- quarta linha -->
+                <td rowspan="2"> Segunda-feira</td> <!-- coluna mesclada verticalmente -->
+                <td rowspan="2"> 9:00 </td> <!-- coluna mesclada verticalmente -->
+                <td rowspan="2"> 10:30 </td> <!-- coluna mesclada verticalmente -->
+                <td colspan="2"> Criação de páginas com HTML 5</td> <!-- coluna mesclada horizontalmente -->
+            </tr>
+            
+            <tr> <!-- quinta linha -->
+                <td colspan="2"> Criação de páginas CSS3</td> <!-- coluna mesclada horizontalmente -->
+            </tr>
+            
+            <tr> <!-- sexta linha -->
+                <td> Segunda-feira </td>
+                <td> 11:00 </td>
+                <td> 11:50 </td>
+                <td> Criação e validação de formulários com HTML 5 </td>
+            </tr>
+
+            <tr> <!-- setima linha -->
+                <td> Terça-feira </td>
+                <td> 09:00 </td>
+                <td> 09:50 </td>
+                <td> Introdução à linguagem PHP </td>
+            </tr>
+
+            <tr> <!-- oitava linha -->
+                <td rowspan="2"> Terça-feira </td> <!-- coluna mesclada verticalmente -->
+                <td rowspan="2"> 10:00 </td> <!-- coluna mesclada verticalmente -->
+                <td rowspan="2"> 11:50 </td> <!-- coluna mesclada verticalmente -->
+                <td> Estruturas de controle na linguagem PHP</td>
+            </tr>
+
+            <tr> <!-- nona linha -->
+                <td> Outros comandos em PHP </td>
+            </tr>
+        </tbody>
+
+
+    </table>
+</body>
+</html>
