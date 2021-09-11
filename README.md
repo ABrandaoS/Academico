@@ -1,2 +1,2 @@
 # Academico
-Desafios Acadêmicos
+Minhas Atividades Acadêmicas
