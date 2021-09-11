@@ -1,2 +1,2 @@
-# Academico
+# Acadêmico
 Minhas Atividades Acadêmicas
