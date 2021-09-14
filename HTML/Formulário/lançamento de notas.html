@@ -4,9 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lançemtno de Notas</title>
+    <title>Lançamento de Notas</title>
 </head>
 <body>
+
+<!--CABEÇALHO-->
+<header>
+
+    <hgroup>
+        <h1>Lançamento de Notas</h1>
+    </hgroup>
+
+</header>
+
+<!--CONTEÚDO-->
+<main>
+
+    <article>
+        <header>
+            <h2></h2>
+        </header>
+
+        <label for="listaDisciplina">Selecione a disciplina</label>
+        <select name="listaDisciplina">
+            <option value="Ii">Introdução à Informática</option>
+            <option value="Lp">Linguagem de Programação</option>
+            <option value="Pc">Programação de Computadores</option>
+        </select>
+        <br>        
+        <br>
+        <table border="1">
+            <thead>
+
+                <tr>
+                    <th colspan="2">Nome do aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Exame</th>
+                    <th>Média</th>
+                    <th>Faltas</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+            <form action="" method="POST">
+                <tr>
+                    <td colspan="2">Joana da Silva</td>
+                    <td>
+                        <label for="prova1"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="prova2"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="exame"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="media"></label>
+                        <input type="number" readonly="">
+                    </td>
+                    <td>
+                        <label for="faltas"></label>
+                        <input type="number" min="0" max="16" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Maria do Socorro</td>
+                    <td>
+                        <label for="prova1"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="prova2"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="exame"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="media"></label>
+                        <input type="number" readonly="">
+                    </td>
+                    <td>
+                        <label for="faltas"></label>
+                        <input type="number" min="0" max="16" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Pedro Santos</td>
+                    <td>
+                        <label for="prova1"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="prova2"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="exame"></label>
+                        <input type="number" min="0" max="10" required>
+                    </td>
+                    <td>
+                        <label for="media"></label>
+                        <input type="number" readonly="">
+                    </td>
+                    <td>
+                        <label for="faltas"></label>
+                        <input type="number" min="0" max="16" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="salvar"></label>
+                        <input type="submit" value="Salvar">
+                    </td>
+                    
+                    <td>
+                        <label for="limpar"></label>
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            
+                </form>
+            </tbody>
+
+        </table>
+
+        <footer>
+            <p>Criado por Alexandre Brandão Santana</p>
+            <time datetime="2021-09-14 19:43"> Data da postagem</time>
+        </footer>
+
+    </article>
+<br>
+
+<!--RODAPÉ-->
+<footer>
+    <address>
+        <p>Contato</p>
+        <a href="#">abrandaos@outlook.com</a>
+    </address>
+    <p>Copyrigth 2021 - Todos os direitos reservados.</p>
+</footer>
+
+</main>
     
 </body>
 </html>
