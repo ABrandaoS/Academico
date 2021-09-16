@@ -1,2 +1,18 @@
-h1 {font-family: sans-serif;
+h1 {font-family: sans-serif, verdana;
+    color: rgb(230, 0, 0);
+    font-size: ;
+    text-align: center;
+}
+
+h2 {font-family: sans-serif, verdana;
+    color: darkred;  
+    text-align: center;  
+}
+
+nav {text-align: center;
+}
+
+p1 {font: arial;
+    color: rgb(63, 29, 255);
+    text-indent: 3em;
 }
