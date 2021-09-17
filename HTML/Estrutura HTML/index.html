@@ -11,87 +11,146 @@
 
 <!--CABEÇALHO-->
 <HEADER>
-
     <NAV>
         <a href=#>Link 1</a>
         <a href=#>Link 2</a>
         <a href=#>Link 3</a>    
     </NAV>
-
     <HGROUP>
-        <h1>Título do site</h1>
-        <h2>Subtítulo do site</h2>
+        <div id="tituloDoSite">
+            <br>
+            <h1>Título do site</h1>
+            <h2 id="subTituloDoSite">Subtitulo do site</h2>
+            <br>
+        </div>
     </HGROUP>
-
 </HEADER>
 
 <!--CONTEÚDO-->
 <MAIN>
-
     <!--Exemplo de artigo-->
-    <ARTICLE>
-        <HEADER>
-            <h2>Título do meu artigo</h2>
-            <p>Subtítulo do meu artigo</p>
-        </HEADER>
-        <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p1>
-        <figure>
-            <img src="" alt="Palavra-chave ou descrip" width="300" height="250" />
-        </figure>
-        <ASIDE>
-            <p>Descrição do anúncio</p>
-        </ASIDE>
-        <FOOTER>
-            <p>Postado por Leonardo Ferreira</p>
-            <time datetome="2021-09-14 18:00">Data da postagem</time> 
-        </FOOTER>
-    </ARTICLE>
+    <section>
+        <fieldset>
+            <ARTICLE>
+                <HEADER>
+                    
+                    <div class="titulos">
+                        <h2 class="tituloart">Título do meu artigo 1</h2>
+                        <p class="subtitulo">Subtítulo do meu artigo</p>
+                    </div>
 
-    <!--Exemplo de artigo 2-->
-    <ARTICLE>
-        <header>
-            <h2>Título do meu artigo</h2>
-            <p>Subtítulo do meu artigo</p>
-        </header>
-        <figure>
-            <img src="" alt="Palavra-chave ou descrip" width="300" height="250" />
-        </figure>
-        <ASIDE>
-            <p>Descrição do anúncio</p>
-        </ASIDE>
-        <FOOTER>
-            <p>Postado por Leonardo Ferreira</p>
-            <time datetome="2021-09-14 18:00">Data da postagem</time> 
-        </FOOTER>
-    </ARTICLE>
-    
+                </HEADER>
+                
+                <div class="principal">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                
+                
+                <figure>
+                    <div class="figura">
+                        <img src="" alt="Palavra-chave ou descrip" width="300" height="250" />
+                    </div>
+                </figure>
+                
+                <ASIDE>
+                    <div class="aside">
+                        <p>Descrição do anúncio</p>
+                    </div>
+                </ASIDE>
+
+                <FOOTER>
+                    <div class="footer">
+                        <p>Postado por Leonardo Ferreira</p>
+                        <time datetome="2021-09-14 18:00">Data da postagem</time>
+                    </div>
+                </FOOTER>
+
+            </ARTICLE>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <ARTICLE> 
+                <HEADER>
+                    <div class="titulos">
+                        <h2 class="tituloart">Título do meu artigo 2</h2>
+                        <p class="subtitulo">Subtítulo do meu artigo</p>
+                    </div>
+                </HEADER>
+                
+                <div>
+                    <p class="principal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                
+                <figure>
+                    <div class="figura">
+                        <img src="" alt="Palavra-chave ou descrip" width="300" height="250" />
+                    </div>
+                </figure>
+                
+                <ASIDE>
+                    <div class="aside">
+                        <p>Descrição do anúncio</p>
+                    </div>
+                </ASIDE>
+
+                <FOOTER>
+                    <div class="footer">
+                        <p>Postado por Leonardo Ferreira</p>
+                        <time datetome="2021-09-14 18:00">Data da postagem</time> 
+                    </div>
+                </FOOTER>
+
+            </ARTICLE>
+        </fieldset>
+    </section>
 </MAIN>
 
 <!--SIDERBAR DIREITA COM RELAÇÃO AO ARTIGO-->
 <ASIDE>
-
     <SECTION>
-        <h2>Seção dos artigos relacionados</h2>
-        <p>Conteúdo da section 01</p>
+        <div>
+            <h2>Seção dos artigos relacionados</h2>
+            <p>Conteúdo da section 01</p>
+        </div>
     </SECTION>
 
     <SECTION>
-        <h2>Destaques</h2>
-        <p>Conteúdo da section 02</p>
+        <div>
+            <h2>Destaques</h2>
+            <p>Conteúdo da section 02</p>
+        </div>
     </SECTION>
 
     <SECTION>
-        <h2>Novidades</h2>
-        <p>Conteúdo da section 02</p>
+        <div>
+            <h2>Novidades</h2>
+            <p>Conteúdo da section 02</p>
+        </div>
     </SECTION>
-
 </ASIDE>
 
 <!--RODAPÉ-->
 <FOOTER>
+    <NAV>
+        <div>
+            <h3>Navegação 01</h3>
+        </div>
+        
+        <ul>
+            <li><a href=#>Link 1</a></li>
+            <li><a href=#>Link 2</a></li>
+            <li><a href=#>Link 3</a></li>
+        </ul>
+
+    </NAV>
 
     <NAV>
-        <h3>Navegação 01</h3>
+        <div>
+            <h3>Navegação 02</h3>
+        </div>
+
         <ul>
             <li><a href=#>Link 1</a></li>
             <li><a href=#>Link 2</a></li>
@@ -100,16 +159,10 @@
     </NAV>
 
     <NAV>
-        <h3>Navegação 02</h3>
-        <ul>
-            <li><a href=#>Link 1</a></li>
-            <li><a href=#>Link 2</a></li>
-            <li><a href=#>Link 3</a></li>
-        </ul>
-    </NAV>
+        <div>
+            <h3>Navegação 03</h3>
+        </div>
 
-    <NAV>
-        <h3>Navegação 03</h3>
         <ul>
             <li><a href=#>Link 1</a></li>
             <li><a href=#>Link 2</a></li>
@@ -118,12 +171,16 @@
     </NAV>
 
     <address>
-        <p>Para maiores contatos.</p>
-        <a href="#">minhaempresa@site.com.br</a>
+        <div>
+            <p>Para maiores contatos.</p>
+        </div>
+        
+        <div>
+            <a href="#">minhaempresa@site.com.br</a>
+        </div>
     </address>
 
     <p>Copyrigth 2021 - Todos os direitos reservados.</p>
-
 </FOOTER>
 
 </body>

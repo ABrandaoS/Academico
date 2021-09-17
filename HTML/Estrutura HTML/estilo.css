@@ -1,18 +1,84 @@
-h1 {font-family: sans-serif, verdana;
-    color: rgb(230, 0, 0);
-    font-size: ;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulos {
+    width: 45%;
+    height: 40px
+
+}
+
+#tituloDoSite {
+    font-family: sans-serif, verdana;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
-h2 {font-family: sans-serif, verdana;
-    color: darkred;  
+#subTituloDoSite {
+    font-family: sans-serif, verdana;
+    color: rgb(14, 58, 255);  
+    text-align: center; 
+    padding: 10px;
+}
+
+.subtitulo {
+    font-family: sans-serif, verdana;
+    color: rgba(255, 0, 255, 0.801);
+    text-align: center;
+    padding: 5px;
+}
+
+fieldset {
+    border: 0;
+}
+
+h2 {
+    font-family: sans-serif, verdana;
+    color: rgb(14, 126, 255);  
     text-align: center;  
 }
 
-nav {text-align: center;
+nav {
+    text-align: center;
 }
 
-p1 {font: arial;
-    color: rgb(63, 29, 255);
-    text-indent: 3em;
+.principal {
+    margin: 15px;
+    width: 40%;
+    height: 150px;
+    top: 50px;
+    left: 50px;
+    border: 6px double black;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #777;
+    text-align: justify;
+}
+
+.figura {
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 150px;
+    border: 6px double black;
+}
+
+.aside {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+.footer {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color:rgba(255, 255, 255, 0.65);
 }
